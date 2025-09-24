@@ -26,6 +26,7 @@ Database: PostgreSQL + Prisma ORM
 Authentication: JWT (JSON Web Tokens)
 
 ## Project Structure
+```
 task-manager-api/
 │── auth/
 │   ├── controllers/
@@ -46,37 +47,37 @@ task-manager-api/
 │── server.js
 │── package.json
 │── .env
-
+```
 ## Setup & Installation
 
 Clone the repository:
-'''
+```
 git clone https://github.com/Ayushi2600/task-management-api.git
 cd task-management-api
-'''
+```
 
 Install dependencies:
-'''
+```
 npm install
-'''
+```
 
 Set up PostgreSQL & Prisma:
 Create a database in PostgreSQL
 Configure .env file:
-'''
+```
 DATABASE_URL="postgresql://USER:PASSWORD@localhost:5432/mydb?schema=public"
 JWT_SECRET="your_jwt_secret"
-'''
+```
 
 Run Prisma migrations:
-'''
+```
 npx prisma migrate dev --name init
-'''
+```
 
 Start the server:
-'''
+```
 node server.js
-'''
+```
 
 ## API Endpoints
 Auth Routes (/api/auth)
