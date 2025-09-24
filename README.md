@@ -26,8 +26,7 @@ Database: PostgreSQL + Prisma ORM
 Authentication: JWT (JSON Web Tokens)
 
 ## Project Structure
-
-''' task-manager-api/
+task-manager-api/
 │── auth/
 │   ├── controllers/
 │   ├── routes/
@@ -46,7 +45,7 @@ Authentication: JWT (JSON Web Tokens)
 │
 │── server.js
 │── package.json
-│── .env '''
+│── .env
 
 ## Setup & Installation
 
